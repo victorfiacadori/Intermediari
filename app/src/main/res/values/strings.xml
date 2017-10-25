@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intermediaria</string>
+    <string name="telefone_label">Telefone : 1 - 0800</string>
+    <string name="um_label">1 - </string>
+    <string name="enviar">Enviar</string>
+    <string name="telefone_e">O telefone é :</string>
+
+</resources>

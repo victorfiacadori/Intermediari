@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.usjt.intermediaria.MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:context="br.usjt.intermediaria.MainActivity"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/mensagem_telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/telefone_label"
+            android:layout_weight="0.23" />
+
+        <EditText
+            android:id="@+id/telefone_message"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:hint="Digite" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="@string/enviar"
+            android:onClick="sendMessage"/>/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
